@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, {Component} from 'react';
+import {Route, Link} from 'react-router-dom';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import NoteListNav from '../NoteListNav/NoteListNav';
 import NotePageNav from '../NotePageNav/NotePageNav';
 import NoteListMain from '../NoteListMain/NoteListMain';
@@ -100,5 +100,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;
